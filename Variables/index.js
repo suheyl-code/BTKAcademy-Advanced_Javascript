@@ -74,4 +74,10 @@ function Deneme(){
 var result = "Deneme()";
 console.log(eval(result));  // running function deneme()
 
-// **************************************************** 
+// **************************************************** Slice
+var sliceDeneme = "this is a string literal";
+console.log(sliceDeneme.slice(10));     // string literal
+console.log(sliceDeneme.slice(12,17));  //ring
+
+// ****************************************************
+
