@@ -79,5 +79,11 @@ var sliceDeneme = "this is a string literal";
 console.log(sliceDeneme.slice(10));     // string literal
 console.log(sliceDeneme.slice(12,17));  //ring
 
-// ****************************************************
+// **************************************************** Substr
 
+console.log("bu bir metin dir.".substr(11));    // n dir.
+// second argument is the number of characters forward
+console.log("bu bir metin dir.".substr(10,3));    // in
+console.log("bu bir metin dir.".substr(-4));    // dir.
+
+// ****************************************************
