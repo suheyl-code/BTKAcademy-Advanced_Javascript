@@ -137,6 +137,6 @@ console.log("ff".localeCompare("ff"));  // 0
 /** -1: "abc" is before "abd" in alphabetic order 
  *   1: "ab" is before "hn" in alphabetic order
  *   0: equal in all alphabetical orders 
-*/
+ */
 
 // *********************************************************
