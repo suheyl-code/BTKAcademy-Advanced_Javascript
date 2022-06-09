@@ -105,4 +105,15 @@ console.log(Number(true),
             Number(false), 
             Number(new Date()));    // 1 0 1654710913140
 
+// ********************************************************* Indexof / Lastindexof
+
+// give me indexof x starting after 5th element.
+console.log("Hello there".indexOf('e', 5)); // 8
+console.log("Hello there".lastIndexOf('e')); // 10
+
+// ********************************************************* Includes
+
+console.log("Hello Sam".includes("Sam"));   // true
+console.log("Hello Sam".includes("sam"));   // false
+
 // *********************************************************
