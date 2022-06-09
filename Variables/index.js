@@ -139,4 +139,23 @@ console.log("ff".localeCompare("ff"));  // 0
  *   0: equal in all alphabetical orders 
  */
 
+// ********************************************************* CharCodeAt
+
+// returns numerical representation of a character at the specific index
+console.log("Hey there".charCodeAt(0)); // 72
+
+// ********************************************************* Escape / Unscape
+
+console.log(escape("javascript is not bad"));   // javascript%20is%20not%20bad
+console.log(unescape("javascript%20is%20not%20bad"));   // javascript is not bad     
+
+// ********************************************************* Sub / sup / strike / fontcolor / fontsize
+
+document.write("<br />"+"h"+"2".sub()+"0");
+document.write("<br />"+"h"+"2".sup()+"0");
+document.write("<br />"+"h20".strike());
+document.write("<br />"+"Hello".fontcolor("red"));
+document.write("<br />"+"Javascript is fun!".fontsize(14));
+
+
 // *********************************************************
