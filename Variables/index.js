@@ -116,4 +116,27 @@ console.log("Hello there".lastIndexOf('e')); // 10
 console.log("Hello Sam".includes("Sam"));   // true
 console.log("Hello Sam".includes("sam"));   // false
 
+// ********************************************************* Replace
+
+console.log("hello there my dear alex".replace("alex", "sam")); // hello there my dear sam
+
+// ********************************************************* Split
+
+var aStringToArray = "This is not a long string literal !".split(" ");
+console.log(aStringToArray, typeof aStringToArray);
+// (8) ['This', 'is', 'not', 'a', 'long', 'string', 'literal', '!'] 'object'
+
+// ********************************************************* LocalCompare
+
+var bir = "abc";
+var iki = "abd";
+console.log(bir.localeCompare(iki));    // -1
+console.log("hn".localeCompare("ab"));  // 1
+console.log("ff".localeCompare("ff"));  // 0
+
+/** -1: "abc" is before "abd" in alphabetic order 
+ *   1: "ab" is before "hn" in alphabetic order
+ *   0: equal in all alphabetical orders 
+*/
+
 // *********************************************************
