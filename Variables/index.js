@@ -156,6 +156,10 @@ document.write("<br />"+"h"+"2".sup()+"0");
 document.write("<br />"+"h20".strike());
 document.write("<br />"+"Hello".fontcolor("red"));
 document.write("<br />"+"Javascript is fun!".fontsize(14));
+document.write("<br />");
 
+// ********************************************************* Link
+
+document.write("Google".link("www.google.com"));
 
 // *********************************************************
